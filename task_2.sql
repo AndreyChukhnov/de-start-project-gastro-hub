@@ -1,4 +1,4 @@
-/*добавьте сюда запрос для решения задания 2*/
+/* Представление показывающее изменение среднего чека заведения от года к году */
 CREATE MATERIALIZED VIEW avg_check_by_year AS 
 WITH yearly_avg AS (
     SELECT
